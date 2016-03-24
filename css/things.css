@@ -3,104 +3,40 @@
   margin: 0 12%;
 }
 
-#django-girls-1 {
-  margin: 10% 5%;
+.row {
+  margin: 5% 5%;
   padding: 20px 0px;
+}
+
+figcaption {
+  font-size: 14px;
+  color: white;
+  margin-top: -20px;
+  opacity: 0;
+}
+
+a:hover figcaption {
+  opacity: 1;
+}
+
+#django-girls-1.row {
   background-image: linear-gradient(120deg, rgba(255,165,0, 0.2), rgba(190,104,190, 0.2));
 }
 
-#django-girls-1 .overlay {
-  background-image: url("events/dg1.jpg");
-  width:320px;
-  height:212px;
-  margin: 20px;
-}
-
-#django-girls-1 .overlay p {
-  padding-top: 60%;
-  font-size: 10px;
-  color: #FFFFFF;
-}
-
 #degree.row {
-  margin: 5% 5%;
-  padding: 20px 0px;
   background-image: linear-gradient(120deg, rgba(87,148,174, 0.2), rgba(31,155,35, 0.2));
 }
 
-#degree .overlay {
-  background-image: url("events/33degree2015.jpg");
-  width:320px;
-  height:212px;
-  margin: 20px;
-}
-
-#degree .overlay p {
-  padding-top: 60%;
-  font-size: 10px;
-  color: #FFFFFF;
-}
-
 #django-girls-2 {
-  margin: 10% 5%;
-  padding: 20px 0px;
   background-image: linear-gradient(120deg, rgba(254,251,1,0.2), rgba(31,155,35, 0.2));
 }
 
-#django-girls-2 .overlay {
-  background-image: url("events/dg2.jpg");
-  width:320px;
-  height:212px;
-  margin: 20px;
-}
-
-#django-girls-2 .overlay p {
-  padding-top: 60%;
-  font-size: 10px;
-  color: #FFFFFF;
-}
-
 #motivation {
-  margin: 5% 5%;
-  padding: 20px 0px;
   background-image: linear-gradient(120deg, rgba(165,42,42, 0.2), rgba(128,128,128, 0.2));
 }
 
-#motivation .overlay {
-  background-image: url("events/motivation.jpg");
-  width:320px;
-  height:174px;
-  margin: 20px;
+#test.row {
+  background-image: linear-gradient(120deg, rgba(255,165,0, 0.2), rgba(190,104,190, 0.2));
+  margin: 5% 5%;
+  padding: 20px 0px;
 }
-
-#motivation .overlay p {
-  padding-top: 60%;
-  font-size: 10px;
-  color: #FFFFFF;
-}
-
-/*.django-girls-2 {
-  margin: 0 5%;
-  padding: 20px;
-  background-image: linear-gradient(120deg, rgba(254,251,1,0.2), rgba(238,136,35, 0.2));
-  float: left;
-}
-
-.django-girls-2 .overlay img {
-  margin: 20px;
-  float: left;
-}
-
-.django-girls-2 .overlay {
-  height: 100%;
-  width: 100%;
-  background: rgba(0,0,0,0.5);
-}
-
-.django-girls-2 img .overlay:hover {
-  background: rgba(0,0,0,0.3);
-}
-
-.django-girls-2 .description {
-  margin-left: 10px;
-}*/
