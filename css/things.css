@@ -23,8 +23,12 @@ a:hover figcaption {
   background-image: linear-gradient(120deg, rgba(255,165,0, 0.2), rgba(190,104,190, 0.2));
 }
 
+#wrocpy {
+  background-image: linear-gradient(120deg, rgba(50,50,205, 0.2),  rgba(95,174,176, 0.2));
+}
+
 #degree.row {
-  background-image: linear-gradient(120deg, rgba(87,148,174, 0.2), rgba(31,155,35, 0.2));
+  background-image: linear-gradient(120deg, rgba(87,148,174, 0.2), rgba(128,128,128, 0.2));
 }
 
 #django-girls-2 {
@@ -32,7 +36,7 @@ a:hover figcaption {
 }
 
 #motivation {
-  background-image: linear-gradient(120deg, rgba(165,42,42, 0.2), rgba(128,128,128, 0.2));
+  background-image: linear-gradient(120deg, rgba(165,42,42, 0.2), rgba(200,150,50, 0.2));
 }
 
 #test.row {
