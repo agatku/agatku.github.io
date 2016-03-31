@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <title>Agata Grdal</title>
+
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Personal page of Agata Grdal - software developer, event organizer, crazy cat lady.">
+
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
 
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -10,91 +14,105 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/things.css">
+
+    <script src="js/bootstrap.js"></script>
   </head>
   <body>
 
-    <nav  class="navbar">
+    <nav class="navbar">
       <div class="container-fluid">
-        <ul class="nav navbar-nav">
-          <li><a href="http://agata.grdal.com/">Main</a></li>
-          <li><a href="/things">Things</a></li>
-          <li><a href="http://blog.grdal.com/">Blog</a></li>
-          <li><a href="http://notes.grdal.com/">Notes</a></li>
-          <li><a href="/hire">Hire</a></li>
-          <li><a href="mailto:agatagrdal@gmail.com">Contact</a></li>
-        </ul>
+        <div class="row">
+          <ul class="nav navbar-nav">
+            <li><a href="http://agata.grdal.com/">Main</a></li>
+            <li><a href="/things">Things</a></li>
+            <li><a href="http://blog.grdal.com/">Blog</a></li>
+            <li><a href="http://notes.grdal.com/">Notes</a></li>
+            <li><a href="/hire">Hire</a></li>
+            <li><a href="mailto:agatagrdal@gmail.com">Contact</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
 
-    <div class="container">
+    <div class="container-fluid">
       <div class="things">
         <p>I love to see new things come to life! This is a list of some of the things I've done.</p>
 
-          <div id="django-girls-1" class="row">
-            <div  class="col-md-6">
-              <figure>
-              <a href="https://djangogirls.org/wroclaw1/"><img class="img-responsive center-block" src="img/things/dg1.jpg" alt="Photo of the first Django Girls Wrocław workshop">
-              <figcaption>Photo credit: Patryk Zawadzki</figcaption></a>
-            </figure>
-            </div>
-            <div class="col-md-6">
-              <a href="https://djangogirls.org/wroclaw1/"><h2>Django Girls Wrocław #1</h2></a>
-              <p class="date">10th January 2015</p>
-              <p>Django Girls Wrocław is an one-day free workshop about building internet websites for total beginners. You can <a href="http://blog.djangogirls.org/post/119281781798/your-django-story-meet-agata-grdal">read here</a> why this idea is very close to my heart.</p>
-            </div>
-          </div>
-
-          <div id="wrocpy" class="row">
-            <div  class="col-md-6">
-              <a href="http://www.meetup.com/wrocpy/"><h2>wroc.py meetings</h2></a>
-              <p class="date">February 2015 - February 2016</p>
-              <p>
-I helped bring back monthly meetings for Python enthusiasts because learning and sharing knowledge is important.</p>
-            </div>
-            <div class="col-md-6">
-              <figure>
-                <a href="http://www.meetup.com/wrocpy/"><img class="img-responsive center-block" src="img/things/wrocpy.jpeg" alt="Photo of an audience during a presentation at wroc.py meeting">
+          <div class="thing" id="django-girls-1">
+            <div class="row">
+              <div class="col-md-6">
+                <figure>
+                <a href="https://djangogirls.org/wroclaw1/"><img class="img-responsive center-block" src="img/things/dg1.jpg" alt="Photo of the first Django Girls Wrocław workshop">
                 <figcaption>Photo credit: Patryk Zawadzki</figcaption></a>
               </figure>
+              </div>
+              <div class="col-md-6">
+                <a href="https://djangogirls.org/wroclaw1/"><h2>Django Girls Wrocław #1</h2></a>
+                <p class="date">10th January 2015</p>
+                <p>Django Girls Wrocław is an one-day free workshop about building internet websites for total beginners. You can <a href="http://blog.djangogirls.org/post/119281781798/your-django-story-meet-agata-grdal">read here</a> why this idea is very close to my heart.</p>
+              </div>
             </div>
           </div>
 
-          <div id="django-girls-2" class="row">
-            <div class="col-md-6">
-              <figure>
-                <a href="https://djangogirls.org/wroclaw2/"><img class="img-responsive center-block" src="img/things/dg2.jpg" alt="Photo of the second Django Girls Wrocław workshop">
-                <figcaption>Photo credit: Patryk Zawadzki</figcaption></a>
-              </figure>
-            </div>
-            <div class="col-md-6">
-              <a href="https://djangogirls.org/wroclaw2/"><h2>Django Girls Wrocław #2</h2></a>
-              <p class="date">11th July 2015</p>
-              <p>We decided to organize Django Girls workshops for the second time, because of high demand for such events and success of the first edition.</p>
-            </div>
-          </div>
-
-          <div id="degree" class="row">
-            <div  class="col-md-6">
-              <a href="http://2015.33degree.org/"><h2>33rd Degree 4 Charity 2015</h2></a>
-              <p class="date">30th November - 1st December 2015</p>
-              <p>I co-organized this conference because I care about others, especially less fortunate ones. The whole income was given to charitable organizations.</p>
-            </div>
-            <div class="col-md-6">
-              <figure>
-                <a href="http://2015.33degree.org/"><img class="img-responsive center-block" src="img/things/33degree2015.jpg" alt="Photo of an audience during a presentation at 33rd Degree 4 Charity 2015 conference">
-                <figcaption>Photo credit: Ola Kunysz</figcaption></a>
-              </figure>
+          <div class="thing" id="wrocpy">
+            <div class="row">
+              <div class="col-md-6">
+                <a href="http://www.meetup.com/wrocpy/"><h2>wroc.py meetings</h2></a>
+                <p class="date">February 2015 - February 2016</p>
+                <p>
+  I helped bring back monthly meetings for Python enthusiasts because learning and sharing knowledge is important.</p>
+              </div>
+              <div class="col-md-6">
+                <figure>
+                  <a href="http://www.meetup.com/wrocpy/"><img class="img-responsive center-block" src="img/things/wrocpy.jpeg" alt="Photo of an audience during a presentation at wroc.py meeting">
+                  <figcaption>Photo credit: Patryk Zawadzki</figcaption></a>
+                </figure>
+              </div>
             </div>
           </div>
 
-          <div id="motivation" class="row">
-            <div class="col-md-6">
-              <a href=""><div class="overlay"><p class="author"></p></div></a>
-              <a href="/motivation"><img class="img-responsive center-block" src="img/things/motivation.jpg" alt="Screen print of motivation booster page"></a>
+          <div class="thing" id="django-girls-2">
+            <div class="row">
+              <div class="col-md-6">
+                <figure>
+                  <a href="https://djangogirls.org/wroclaw2/"><img class="img-responsive center-block" src="img/things/dg2.jpg" alt="Photo of the second Django Girls Wrocław workshop">
+                  <figcaption>Photo credit: Patryk Zawadzki</figcaption></a>
+                </figure>
+              </div>
+              <div class="col-md-6">
+                <a href="https://djangogirls.org/wroclaw2/"><h2>Django Girls Wrocław #2</h2></a>
+                <p class="date">11th July 2015</p>
+                <p>We decided to organize Django Girls workshops for the second time, because of high demand for such events and success of the first edition.</p>
+              </div>
             </div>
-            <div class="col-md-6">
-              <a href="/motivation"><h2>Motivation booster</h2></a>
-              <p>I made this site for myself to help me when I think I'm going crazy, because I feel overworked or overwhelmed with projects. Also, I wanted to learn a little bit of JavaScript and jQuery. Yes, I think I'm funny.</p>
+          </div>
+
+          <div class="thing" id="degree">
+            <div class="row">
+              <div class="col-md-6">
+                <a href="http://2015.33degree.org/"><h2>33rd Degree 4 Charity 2015</h2></a>
+                <p class="date">30th November - 1st December 2015</p>
+                <p>I co-organized this conference because I care about others, especially less fortunate ones. The whole income was given to charitable organizations.</p>
+              </div>
+              <div class="col-md-6">
+                <figure>
+                  <a href="http://2015.33degree.org/"><img class="img-responsive center-block" src="img/things/33degree2015.jpg" alt="Photo of an audience during a presentation at 33rd Degree 4 Charity 2015 conference">
+                  <figcaption>Photo credit: Ola Kunysz</figcaption></a>
+                </figure>
+              </div>
+            </div>
+          </div>
+
+          <div class="thing" id="motivation">
+            <div class="row">
+              <div class="col-md-6">
+                <a href=""><div class="overlay"><p class="author"></p></div></a>
+                <a href="/motivation"><img class="img-responsive center-block" src="img/things/motivation.jpg" alt="Screen print of motivation booster page"></a>
+              </div>
+              <div class="col-md-6">
+                <a href="/motivation"><h2>Motivation booster</h2></a>
+                <p>I made this site for myself to help me when I think I'm going crazy, because I feel overworked or overwhelmed with projects. Also, I wanted to learn a little bit of JavaScript and jQuery. Yes, I think I'm funny.</p>
+              </div>
             </div>
           </div>
 
