@@ -1,97 +1,26 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300&subset=latin,latin-ext);
+h1 {
+  font-family: 'Dancing Script';
+  font-size: 150px;
 
-body {
-  font-family: "Lato", "Verdana", sans-serif;
-  font-size: 18px;
-  font-size: 1.8rem;
-  font-weight: 300;
-  line-height: 1.5;
-  color: #555555;
-  padding-bottom: 20px;
+  @media (min-width: 445px) {
+    font-size: 200px;
+  }
 }
 
 a {
-  color: #60969E;
-}
-
-a:hover {
-  color: #7fabb1;
+  color: hotpink;
   text-decoration: none;
 }
 
-a:active {
-  color: #7fabb1;
-  text-decoration: none;
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-a:focus {
-  color: #7fabb1;
-  text-decoration: none;
-}
-
-::selection {
-  background: #FEF485;
-}
-::-moz-selection {
-  background: #FEF485;
-}
-
-/* Navigation */
-
-nav .container-fluid{
-  display: inline-block;
-}
-
-nav {
-  padding: 30px 0;
-  text-align: center;
-  text-transform: lowercase;
-  font-weight: 300;
-}
-
-.nav>li>a:hover {
-  background-color: #FFFFFF;
-}
-
-.nav>li>a:focus {
-  background-color: #FFFFFF;
-}
-
-/* Page content */
-
-#about-me h2 {
-  margin-top: 0;
-}
-
-#logos {
-  padding: 35px 0;
-}
-
-#items {
-  display: inline-block;
-  padding-top: 40px;
-}
-
-#items img {
-  display: inline-block;
-  padding: 10px;
-}
-
-.hire {
-  text-align: center;
-  margin: 0px 12%;
-}
-
-.hire p.last-one {
-  margin:25px 0px;
-}
-
-/* Footer */
-
-.footer {
-  height: 20px;
-}
-
-.footer p {
-  font-size: 14px;
+.main > h1 {
+  background: url(../img/dozestudio.gif) repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
